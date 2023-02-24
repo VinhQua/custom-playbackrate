@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    display: flex;
+    gap: 2rem;
+}
+.speed{
+    width: 4rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 5rem;
+    overflow: hidden;
+    user-select: none;
+}
+.speed-bar{
+    background: linear-gradient(-170deg, rgb(164, 205, 243) 70%,rgb(164, 207, 245) 29%);
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    transition: all .05;
+  
+}
